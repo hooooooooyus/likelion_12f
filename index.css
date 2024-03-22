@@ -1,6 +1,24 @@
-div {
-  color: blue;
+body {
+  text-align: center;
+  font-family: "Noto Sans KR";
+}
+p:hover {
+  cursor: pointer;
+}
+input {
+  border: none;
+  border-bottom: 1px solid;
+}
+button {
+  background-color: skyblue;
+  border: none;
+}
+button:hover {
+  background-color: cornflowerblue;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .done {
   text-decoration: line-through;
+  color: gray;
 }
