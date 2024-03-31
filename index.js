@@ -1,19 +1,28 @@
 const button = document.querySelector("#추가하기");
 const input = document.querySelector("#입력창");
 const todos = document.querySelector("#할일들");
+const reset = document.querySelector("#초기화");
+const newtodos = [];
 
 button.addEventListener("click", () => {
   const value = input.value;
-  const p = document.createElement("p");
-  p.innerText = value;
-  todos.appendChild(p);
+  const newtodo = document.createElement("p");
+  newtodo.innerText = value;
+  todos.appendChild(newtodo);
   input.value = "";
 
-  p.addEventListener("click", () => {
-    if (p.className !== "done") {
-      p.className = "done";
+  newtodo.addEventListener("click", () => {
+    if (newtodo.className !== "done") {
+      newtodo.className = "done";
     } else {
-      p.className = "";
+      newtodo.className = "";
     }
+  });
+});
+
+reset.addEventListener("click", () => {
+  newtodos.push(newtodo);
+  newtodos.forEach((newtodo) => {
+    todos.removeChild(newtodo);
   });
 });
