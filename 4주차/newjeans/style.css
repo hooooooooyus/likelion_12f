@@ -49,16 +49,14 @@
   left: 90px;
   width: 300px;
 }
-.boxing {
-}
+
 .coffee {
   position: absolute;
   top: 180px;
   left: 15px;
   z-index: 3;
 }
-.cookie {
-}
+
 .hanbok {
   position: absolute;
   top: 138px;
@@ -66,13 +64,18 @@
   left: 100px;
   z-index: 2;
 }
+/*
 .hamburger {
 }
 .jacket_c {
 }
 .jacket_o {
 }
-
+.boxing {
+}
+.cookie {
+}
+*/
 .rabbit.imgimg {
   position: relative;
   left: 0px;
