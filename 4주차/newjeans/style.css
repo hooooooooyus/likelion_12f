@@ -19,6 +19,11 @@
   background-color: skyblue;
   border: 6px solid black;
   position: relative;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.box:hover {
+  opacity: 0%;
 }
 
 .imgimg {
