@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.parentbox {
+  width: 1200px;
+  height: 2000px;
+  background-color: gray;
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border: 6px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imgimg {
+  width: 400px;
+}
+/*
+.pants {
+  position: absolute;
+  top: 222px;
+  left: 50px;
+  width: 325px;
+}
+.shirts {
+  position: absolute;
+  top: 67px;
+  right: 80px;
+  width: 325px;
+}
+*/
+.airpodmax {
+  position: absolute;
+  top: 180px;
+  left: 246px;
+  width: 116px;
+  z-index: 2;
+}
+.ballcap {
+  position: relative;
+  top: -360px;
+  left: 90px;
+  width: 300px;
+}
+.boxing {
+}
+.coffee {
+  position: absolute;
+  top: 180px;
+  left: 15px;
+  z-index: 3;
+}
+.cookie {
+}
+.hanbok {
+  position: absolute;
+  top: 138px;
+  width: 202px;
+  left: 100px;
+  z-index: 2;
+}
+.hamburger {
+}
+.jacket_c {
+}
+.jacket_o {
+}
+
+.rabbit.imgimg {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
