@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.media_q {
+  background-color: aquamarine;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.media_q::after {
+  content: "모바일";
+}
+@media screen and (min-width: 576px) {
+  .media_q {
+    background-color: yellowgreen;
+  }
+  .media_q::after {
+    content: "태블릿";
+  }
+}
+@media screen and (min-width: 826px) {
+  .media_q {
+    background-color: yellow;
+  }
+  .media_q::after {
+    content: "노트북";
+  }
+}
+@media screen and (min-width: 1222px) {
+  .media_q {
+    background-color: pink;
+  }
+  .media_q::after {
+    content: "데스크탑";
+  }
+}
